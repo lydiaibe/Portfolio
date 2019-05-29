@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="short icon" href="img/fav.icon.png">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="top">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">My Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- header with image -->
+    <div class="big-piture">
+      <img src="img/IMG-20190529-WA0011.jpg" alt="big-piture">  
+        <div class="big-text">
+            <h1>Lydia Chikodi Ibe</h1>
+            <p>Mobile Web Developer and Digital Marketer</p>
+            <a href="menu.html">
+                <button class="hire">Hire me</button>
+            </a>
+        </div>
+
+    </div>
+
+    <section>
+      <h2 align="center"> Portfolio</h2>
+     <img src="img/IMG-20190529-WA0017.jpg" alt="speech">
+    </section>
+
+   <div class="footer">
+        <a href="https://www.facebook.com/ibe.lydia"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/lydia.ibe">    <i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.twitter.com/ibe_lydiabeauty/">  <i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/lydia_chikodinaka/">   <i class="fab fa-instagram"></i></a>
+        <p>&COPY; 2019 by Lydia Chikodi Ibe</p>
+   </div>
+
+   <script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+     function myFunction() {
+       var x = document.getElementById("myTop");
+       if (x.className === "top") {
+          x.className += "responsive";
+       }
+       else {
+         x.className = "top";
+       }
+     }
+</script>
+</body>
+</html>
